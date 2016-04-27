@@ -1,12 +1,12 @@
 const 
   express = require('express'),
-  app = express(),
   port = 8081;
 
 
+const app = express();
 
 app.use(express.static('public'));
-app.get('/', function (req, res) {
+app.get('/world', function (req, res) {
     res.send('Hello World!');
 });
 
