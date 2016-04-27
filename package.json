@@ -1,0 +1,18 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "just a few files that show simple node programs",
+  "main": "01-hello.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Brigitte Jellinek",
+    "email": "brigitte.jellinek@fh-salzburg.ac.at"
+  }
+  "license": "MIT"
+}
